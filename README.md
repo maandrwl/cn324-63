@@ -1,7 +1,7 @@
 # cn324-63
-[คลิป อินเตอร์เน็ตคืออะไร](https://youtu.be/Sgd4gfBOrK0)
+[คลิป อินเตอร์เน็ตคืออะไร](https://youtu.be/OmlRaPVEdYM)
 
-[คลิป ไอพีแอดเดรส คืออะไร](https://youtu.be/Rv_ES--s_ks)
+[คลิป ไอพีแอดเดรส คืออะไร](https://youtu.be/CJRjygW0SeI)
 
 [คลิป โดเมนเนม](https://youtu.be/Vk2Breiw94A)
 
