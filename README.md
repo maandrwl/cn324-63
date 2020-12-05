@@ -23,11 +23,13 @@
 
 ### 6. Traceroute
 > ทดลองใช้คำสั่ง traceroute ที่ได้เรียนไป เพื่อดูเส้นทางการเดินทางของ ip address ที่สนใจ 5 เว็บไซต์ โดยใช้คำสั่งรูปแบบต่างๆดังที่แสดงข้างล่างนี้<br>
+> `traceroute -w 1 8.8.8.8` <br>
 > `tail -n +2`<br>
 > `awk '{ print $2 }'`<br>
 > `grep -E -o "([0-9]{1,3}[\.]){3}[0-9]{1,3}"`<br>
 > `while read r; do echo "\"https://tools.keycdn.com/geo.json?host=$r\""; done`<br>
-> `jq` <br>
+> `xargs curl -s`<br>
+> `jq'{ip: .data.geo.ip, isp: .data.geo.isp, asn: .data.geo.asn,  city: .data.geo.city,  lat: .data.geo.latitude, lng: .data.geo.longitude }'` <br>
 > [CLIP6](https://youtu.be/VP1uMzxcOg8)
 
 ### 7. Git object structure
